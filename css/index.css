@@ -1,0 +1,14 @@
+@import './common.css';
+body {
+  background-color: var(--body-bgColor);
+}
+h1 {
+  color: var(--title-color);
+}
+
+p {
+  color: var(--text-color);
+}
+a {
+  color: var(--link-color);
+}

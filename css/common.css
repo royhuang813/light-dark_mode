@@ -1,0 +1,17 @@
+/* default theme, light */
+:root {
+  --body-bgColor:#fff;
+  --title-color:#ff0000;
+  --text-color:#ff9999;
+  --link-color:#000;
+}
+
+/* for dark */
+@media(prefers-color-scheme: dark){
+  :root {
+    --body-bgColor:#2e2e2e;
+    --title-color:#00ff00;
+    --text-color:#99ff99;
+    --link-color:#fff;
+  }
+}
